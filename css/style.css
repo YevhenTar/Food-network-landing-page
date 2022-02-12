@@ -1,0 +1,158 @@
+html {
+    height: 100vh;
+    box-sizing: border-box;
+}
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #150C01;
+}
+section {
+    position: relative;
+    overflow: visible;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #150C01;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+h1, h2, h3, h4, h5{
+    font-family: "Philosopher";
+    line-height: 1.5;
+}
+h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+h2{
+    font-weight: 500;
+    font-size: 48px;
+}
+h3{
+    font-weight: normal;
+    font-size: 36px;
+}
+h4{
+    font-weight: normal;
+    font-size: 24px;
+}
+h5{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.main-content {
+    overflow: hidden;
+}
+.body-blocked{
+    overflow: hidden;
+}
+/*******************************New page index.html start**************************/
+.main-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.main-header__wrap{
+    height: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.nav-block__menu {
+    margin-left: 35px;
+}
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list__item{
+    margin-right: 40px;
+}
+.menu-list__item:last-child{
+    margin-right: 0;
+}
+.menu-list__link {
+    /* margin-right: 40px; */
+}
+.button-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.project-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    width: -moz-fit-content;
+    height: 60px;
+    padding: 0 35px;
+    color: #FFFFFF;
+    background-color: #DC780B;
+    border-radius: 5px;
+}
+.button-block .project-button {
+    height: 45px;
+    padding: 0 30px;
+}
+.burger-menu {
+    display: none;
+}
+.burger-menu__line {
+}
+.top-line {
+}
+.middle-line {
+}
+.bottom-line {
+}
+.hidden-nav__block {
+    display: none;
+}
+/*******************************New page index.html end****************************/
