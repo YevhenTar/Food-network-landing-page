@@ -80,6 +80,7 @@ p{
     position: fixed;
     top: 0;
     z-index: 100;
+    background-color: transparent;
 }
 .main-header__wrap{
     height: 105px;
@@ -116,7 +117,7 @@ p{
     margin-right: 0;
 }
 .menu-list__link {
-    /* margin-right: 40px; */
+    opacity: 0.6;
 }
 .button-block {
     display: flex;
@@ -134,12 +135,14 @@ p{
     height: 60px;
     padding: 0 35px;
     color: #FFFFFF;
+    font-weight: 500;
     background-color: #DC780B;
     border-radius: 5px;
 }
 .button-block .project-button {
     height: 45px;
     padding: 0 30px;
+    font-weight: 400;
 }
 .burger-menu {
     display: none;
