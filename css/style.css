@@ -41,7 +41,7 @@ h5 {
 }
 h1, h2, h3, h4, h5{
     font-family: "Philosopher";
-    line-height: 1.5;
+    line-height: 1.2;
 }
 h1{
     font-weight: 700;
@@ -122,8 +122,16 @@ p{
 .button-block {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
+}
+.button-block-flex-end {
+    justify-content: flex-end;
+}
+.home-section__button-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 .project-button {
     display: flex;
@@ -157,5 +165,38 @@ p{
 }
 .hidden-nav__block {
     display: none;
+}
+.home-section__section-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    z-index: 2;
+}
+.home-section__headline {
+    margin-bottom: 45px;
+}
+.home-section__text {
+    margin-bottom: 50px;
+}
+.home-section__button-block .project-button:first-child{
+    margin-right: 30px;
+}
+.home-section__button-block .project-button:last-child{
+    background-color: #FFFFFF;
+    color: #DC780B;
+    border: 1.5px solid rgba(220, 120, 11, 0.1);
+}
+.image-container {
+    position: relative;
+    height: 100vh;
+    z-index: 1;
+}
+.main-image {
+    position: relative;
+    top: calc(50% - 355px);
+    left: calc(50% + -336px);
 }
 /*******************************New page index.html end****************************/
