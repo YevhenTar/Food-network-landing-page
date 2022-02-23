@@ -272,7 +272,104 @@ p{
 .about-section__text {
     margin-bottom: 30px;
 }
+.menu-section {
+    padding-bottom: 120px;
+}
+.headline-animate-wrap {
+    text-align: center;
+}
+.menu-section__subheadline {
+    margin-bottom: 10px;
+}
+.menu-section__headline {
+    margin-bottom: 25px;
+}
+.menu-section__text {
+    max-width: 748px;
+    margin: 0 auto 60px;
+}
+.dish-block {
+    margin-bottom: 30px;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0 10px 10px 0;
+}
+.dish-block__image-wrap {
+    border-radius: 75px 10px 75px 0px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.dish-block__image {
+    width: 100%;
+}
+.dish-block__text-wrap {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: none;
+    border-right: none;
+    border-radius: 0 0 10px 10px;
+    padding: 20px 25px 25px;
+}
+.dish-block__headline-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.dish-block__headline {
+}
+.dish-block__price {
+}
+.dish-block__text {
+    margin-bottom: 20px;
+}
+.dish-block__bottom-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.dish-block__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 34px;
+    background-color: #DC780B;
+    border-radius: 5px;
+    position: relative;
+}
+.dish-block__button::before {
+    content: url("../img/home-page/menu-section/plus.svg");
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.dish-block__stars-wrap {
+}
+.dish-block__star {
+}
+.bottom-link-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.learn-more-link {
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
 
+
+color: #DC780B;
+}
 
 
 
