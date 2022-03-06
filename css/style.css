@@ -370,13 +370,161 @@ line-height: 19px;
 
 color: #DC780B;
 }
+.app-section {
+    padding-bottom: 120px;
+}
 
-
-
-
+.app-section__section-container {
+}
+.app-section__subheadline {
+    margin-bottom: 5px;
+}
+.app-section__headline {
+    margin-bottom: 30px;
+}
+.app-section__text {
+    margin-bottom: 40px;
+    max-width: 565px;
+}
+.app-section__button-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.appstore-button {
+    margin-right: 30px;
+    background-color: #150C01;
+}
+.app-section__link-image {
+    margin-right: 8px;
+}
+.google-play-button {
+    color: #150C01;
+    border: 1.5px solid rgba(21,12,1,0.1);
+    background-color: #ffffff;
+}
+.appstore-button p, .google-play-button p{
+    line-height: 1.9;
+}
+.app-section__image-container {
+}
+.app-section__main-image {
+}
+.testimonials-section {
+    padding-bottom: 120px;
+}
+.container {
+}
+.row {
+}
+.col {
+}
+.headline-animate-wrap {
+}
+.testimonials-section__subheadline {
+}
+.testimonials-section__headline {
+}
+.testimonials-section__text {
+}
+.swiper-container {
+}
+.swiper {
+}
+.testimonials-swiper {
+}
+.swiper-wrapper {
+}
+.testimonials-swiper-wrapper {
+}
+.swiper-slide {
+}
+.testimonials-swiper-slide {
+}
+.slide-person-photo {
+}
+.slide-text {
+}
+.stars-block {
+}
+.star {
+}
+.slide-person-name {
+}
+.slide-person-position {
+}
+.swiper-pagination {
+}
+.testimonials-swiper-pagination {
+}
+.swiper-button-prev {
+}
+.testimonials-siper-button-prev {
+}
+.swiper-button-next {
+}
+.testimonials-siper-button-next {
+}
 
 .testimonials-swiper {
     width: 100%;
     height: auto;
+}
+.contacts-section {
+    background: rgba(220,120,11,0.1);
+    padding-top: 115px;
+    padding-bottom: 120px;
+}
+.headline-animate-wrap {
+}
+.section-subheadline {
+}
+.contacts-section__subheadline {
+    margin-bottom: 15px;
+}
+.section-headline {
+}
+.contacts-section__headline {
+    width: 68%;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 45px;
+}
+.form-animate-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.contacts-form {
+
+}
+.contacts-form__input-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contacts-form__input {
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 750px;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    outline: none;
+    border: none;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 2.5;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.5;
+}
+.project-button {
+}
+.contacts-form__project-button {
 }
 /*******************************New page index.html end****************************/
