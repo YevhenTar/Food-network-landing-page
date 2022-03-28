@@ -475,14 +475,8 @@ color: #DC780B;
     padding-top: 115px;
     padding-bottom: 120px;
 }
-.headline-animate-wrap {
-}
-.section-subheadline {
-}
 .contacts-section__subheadline {
     margin-bottom: 15px;
-}
-.section-headline {
 }
 .contacts-section__headline {
     width: 68%;
@@ -503,6 +497,7 @@ color: #DC780B;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
 }
 .contacts-form__input {
     background: #FFFFFF;
@@ -518,13 +513,92 @@ color: #DC780B;
     font-weight: normal;
     font-size: 16px;
     line-height: 2.5;
-    display: flex;
-    align-items: center;
     color: #000000;
     opacity: 0.5;
+    padding: 0 160px 0 35px;
+    font-family: "Roboto";
 }
 .project-button {
 }
 .contacts-form__project-button {
+    position: absolute;
+    height: 75px;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 2.3;
+    padding: 0 55px;
+}
+
+
+.main-footer {
+}
+.main-footer__wrap {
+    padding-top: 140px;
+    padding-bottom: 105px;
+    background-color: #252525;
+}
+
+.footer-block {
+}
+.footer-logo-block {
+
+}
+.footer-logo {
+    display: block;
+    margin-bottom: 25px;
+}
+.footer-link {
+    display: block;
+    font-size: 14px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+.footer-link:last-child {
+    margin-bottom: 0;
+}
+.foter-block__headline {
+    font-weight: 700;
+    line-height: 1.1;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.footer-block__list {
+}
+.footer-block__list-item {
+    margin-bottom: 20px;
+}
+.footer-block__list-item:last-child {
+    margin-bottom: 0;
+}
+.company__list-item{
+    margin-bottom: 25px;
+}
+.footer-block__link {
+    font-size: 14px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    opacity: 0.7;
+    display: block;
+}
+.footer-block__social-media {
+}
+.social-media__link {
+    margin-right: 10px;
+}
+.social-media__image {
+}
+.instagram-logo {
+}
+.facebook-logo {
+}
+.twitter-logo {
+}
+.youtube-logo {
 }
 /*******************************New page index.html end****************************/
