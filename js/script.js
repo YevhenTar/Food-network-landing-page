@@ -10,6 +10,11 @@ $(function () {
     });
 });
 
+let scene = document.getElementById('scene');
+let parallaxInstance = new Parallax(scene, {
+    relativeInput: true
+});
+
 const swiper = new Swiper('.testimonials-swiper', {
     // Optional parameters
     direction: 'horizontal',
