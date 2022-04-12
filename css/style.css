@@ -114,13 +114,26 @@ p{
     align-items: center;
 }
 .menu-list__item{
-    margin-right: 40px;
+    margin-right: 20px;
 }
 .menu-list__item:last-child{
     margin-right: 0;
 }
 .menu-list__link {
     opacity: 0.6;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.menu-list__link:hover {
+    opacity: 0.6;
+    background-color: #150C01;
+    color: #fff;
 }
 .button-block {
     display: flex;
@@ -149,11 +162,41 @@ p{
     font-weight: 500;
     background-color: #DC780B;
     border-radius: 5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .button-block .project-button {
+    position: relative;
     height: 45px;
     padding: 0 30px;
     font-weight: 400;
+}
+.button-block .project-button::before {
+    content: "";
+    position: absolute;
+    bottom: 14px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50%;
+    transform-origin: 50%;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.button-block .project-button:hover::before {
+    -webkit-transform: scaleX(0.6);
+    transform: scaleX(0.6);
 }
 .burger-menu {
     display: none;
@@ -184,13 +227,16 @@ p{
 .home-section__text {
     margin-bottom: 50px;
 }
-.home-section__button-block .project-button:first-child{
-    margin-right: 30px;
+.home-section__button-block .project-button{
+    border: 1.5px solid #DC780B;
 }
-.home-section__button-block .project-button:last-child{
+.home-section__button-block .project-button:first-child{
+    margin-right: 35px;
+}
+.home-section__button-block .project-button:hover{
     background-color: #FFFFFF;
     color: #DC780B;
-    border: 1.5px solid rgba(220, 120, 11, 0.1);
+    transform: scale(1.2);
 }
 .image-container {
     position: relative;
@@ -249,6 +295,7 @@ p{
     left: 0;
     bottom: 0;
     right: 0;
+    z-index: -1;
 }
 .background-image {
     position: absolute;
@@ -271,6 +318,12 @@ p{
 }
 .about-section__text {
     margin-bottom: 30px;
+}
+.about-section__section-container .project-button{
+    letter-spacing: normal;
+}
+.about-section__section-container .project-button:hover{
+    letter-spacing: 2px;
 }
 .menu-section {
     padding-bottom: 120px;
