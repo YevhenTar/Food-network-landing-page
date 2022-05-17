@@ -25,10 +25,12 @@ $(function () {
     });
 });
 
-let scene = document.getElementById('scene');
-let parallaxInstance = new Parallax(scene, {
-    relativeInput: true
-});
+if (window.innerWidth >= 992) {
+    let scene = document.getElementById('scene');
+    let parallaxInstance = new Parallax(scene, {
+        relativeInput: true
+    });
+}
 
 const swiper = new Swiper('.testimonials-swiper', {
     // Optional parameters
