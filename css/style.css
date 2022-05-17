@@ -81,9 +81,14 @@ p{
     top: 0;
     z-index: 100;
     background-color: transparent;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 .main-header.stickytop{
-    background-color: #FFFFFF;
+    background-color: #d5d5ce;
 }
 .main-header__wrap{
     height: 105px;
@@ -91,6 +96,14 @@ p{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.main-header.stickytop .main-header__wrap{
+    height: 80px;
 }
 .nav-block {
     display: flex;
@@ -285,9 +298,8 @@ p{
     line-height: 0.9;
     margin-bottom: 15px;
 }
-
 .about-section {
-    padding: 60px 0 120px;
+    padding: 135px 0 120px;
 }
 .background-block {
     position: absolute;
@@ -326,7 +338,7 @@ p{
     letter-spacing: 2px;
 }
 .menu-section {
-    padding-bottom: 120px;
+    padding: 135px 0 120px;
 }
 .headline-animate-wrap {
     text-align: center;
@@ -424,7 +436,7 @@ line-height: 19px;
 color: #DC780B;
 }
 .app-section {
-    padding-bottom: 120px;
+    padding: 135px 0 120px;
 }
 
 .app-section__section-container {
@@ -464,7 +476,7 @@ color: #DC780B;
 .app-section__main-image {
 }
 .testimonials-section {
-    padding-bottom: 120px;
+    padding: 135px 0 120px;
 }
 .container {
 }
@@ -534,8 +546,7 @@ color: #DC780B;
 
 .contacts-section {
     background: rgba(220,120,11,0.1);
-    padding-top: 115px;
-    padding-bottom: 125px;
+    padding: 135px 0 120px;
 }
 .contacts-section__subheadline {
     margin-bottom: 15px;
