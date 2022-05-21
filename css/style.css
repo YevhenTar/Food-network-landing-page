@@ -249,10 +249,7 @@ p{
     overflow: auto;
 }
 .hidden-nav-block__menu-list {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
 }
 .home-section__section-container {
     height: 100vh;

@@ -33,12 +33,13 @@ if (window.innerWidth >= 992) {
 }
 
 let menuOpened = false;
+let burgerMenu = document.querySelector('.burger-menu');
 let first = document.querySelector('.top-line');
 let second = document.querySelector('.middle-line');
 let third = document.querySelector('.bottom-line');
 let hiddenMenu = document.querySelector('.hidden-nav-block');
 
-window.addEventListener('click', () => {
+burgerMenu.addEventListener('click', () => {
     if (menuOpened == false) {
         console.log('Opening...');
         document.body.classList.add("body-blocked");
