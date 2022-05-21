@@ -40,12 +40,18 @@
     .home-section__text {
         margin-bottom: 42px;
     }
-
-
+    .burger-menu {
+        display: flex;
+    }
 }
 
+
+
+
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {  }
+@media (max-width: 767.98px) { 
+    
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {  }
