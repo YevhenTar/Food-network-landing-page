@@ -36,12 +36,13 @@ let menuOpened = false;
 let first = document.querySelector('.top-line');
 let second = document.querySelector('.middle-line');
 let third = document.querySelector('.bottom-line');
-let hiddenMenu = document.querySelector('.hidden-nav__block');
+let hiddenMenu = document.querySelector('.hidden-nav-block');
 
 window.addEventListener('click', () => {
     if (menuOpened == false) {
         console.log('Opening...');
-        // hiddenMenu.style.display = "block";
+        document.body.classList.add("body-blocked");
+        hiddenMenu.style.display = "block";
         first.style.marginTop = '10px';
         second.style.marginTop = '-2px';
         second.style.transform = 'scale(0)';
@@ -53,7 +54,8 @@ window.addEventListener('click', () => {
         menuOpened = true;
     } else if (menuOpened == true) {
         console.log('Closing...');
-        // hiddenMenu.style.display = "none";
+        document.body.classList.remove("body-blocked");
+        hiddenMenu.style.display = "none";
         first.style.transform = 'rotate(0deg)';
         third.style.transform = 'rotate(0deg)';
         window.setTimeout(() => {

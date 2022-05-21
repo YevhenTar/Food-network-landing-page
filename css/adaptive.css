@@ -19,6 +19,12 @@
     .nav-block__menu {
         display: none;
     }
+    .main-header__wrap {
+        height: 75px;
+    }
+    .main-header.stickytop .main-header__wrap {
+        height: 65px;
+    }
     .main-image {
         transform: scale(0.75);
         left: calc(50% + -387px);
@@ -43,6 +49,13 @@
     .burger-menu {
         display: flex;
     }
+    .hidden-nav-block .menu-list__item{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .hidden-nav-block .menu-list__item:last-child{
+        margin-bottom: 0;
+    }
 }
 
 
@@ -50,8 +63,20 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
-    
+    .image-container{
+        display: none;
+    }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {  }
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 38px;
+    }
+    .main-header__wrap {
+        height: 65px;
+    }
+    .main-header.stickytop .main-header__wrap {
+        height: 60px;
+    }
+}

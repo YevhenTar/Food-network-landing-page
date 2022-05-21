@@ -116,7 +116,7 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 10;
 }
 .nav-block__menu {
     margin-left: 35px;
@@ -153,7 +153,6 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    z-index: 1000;
 }
 .button-block-flex-end {
     justify-content: flex-end;
@@ -188,6 +187,7 @@ p{
     height: 45px;
     padding: 0 30px;
     font-weight: 400;
+    z-index: 10;
 }
 .button-block .project-button::before {
     content: "";
@@ -219,6 +219,7 @@ p{
     width: 38px;
     height: 31px;
     margin-left: 20px;
+    z-index: 10;
 }
 .burger-menu__line {
     height: 5px;
@@ -235,7 +236,7 @@ p{
 
 
 
-.hidden-nav__block {
+.hidden-nav-block {
     display: none;
     position: fixed;
     top: 0;
@@ -246,6 +247,12 @@ p{
     z-index: 9;
     padding: 188px 100px 60px;
     overflow: auto;
+}
+.hidden-nav-block__menu-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 .home-section__section-container {
     height: 100vh;
