@@ -12,6 +12,23 @@
     .menu-list__link {
         padding: 10px 15px;
     }
+    .about-center-row{
+        flex-direction: column-reverse;
+    }
+    .about-section__image-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-section__section-container {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .about-section__section-container .project-button {
+        margin: 0 auto;
+    }   
+  
 }
 
 /* Medium devices (tablets, less than 992px) */
@@ -93,5 +110,8 @@
     }
     h3 {
         font-size: 22px;
+    }
+    .about-section__image{
+        width: 100%;
     }
 }

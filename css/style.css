@@ -345,6 +345,11 @@ p{
 .center-row{
     align-items: center;
 }
+.about-center-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .about-section__image {
     z-index: 5;
 }
