@@ -395,6 +395,9 @@ p{
     overflow: hidden;
     display: flex;
 }
+.dish-block__image-link{
+    width: 100%;
+}
 .dish-block__image {
     width: 100%;
 }
