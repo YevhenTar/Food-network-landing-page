@@ -66,6 +66,15 @@
     .image-container{
         display: none;
     }
+    .features-column{
+        margin-bottom: 45px;
+    }
+    .features-column:last-child{
+        margin-bottom: 0;
+    }
+    .features-block__image-wrap {
+        margin-bottom: 20px;
+    }
 }
 
 /* X-Small devices (portrait phones, less than 576px) */
@@ -78,5 +87,11 @@
     }
     .main-header.stickytop .main-header__wrap {
         height: 60px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 22px;
     }
 }
