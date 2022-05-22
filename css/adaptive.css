@@ -27,9 +27,17 @@
     }
     .about-section__section-container .project-button {
         margin: 0 auto;
-    }   
-  
-}
+    }  
+    .dish-block__headline {
+        font-size: 20px;
+    }
+    .dish-block__price {
+        font-size: 22px;
+    }
+    .dish-block__text {
+        font-size: 14px;
+    }
+} 
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
@@ -72,6 +80,12 @@
     }
     .hidden-nav-block .menu-list__item:last-child{
         margin-bottom: 0;
+    }
+    .dish-block__headline {
+        font-size: 22px;
+    }
+    .dish-block__price {
+        font-size: 25px;
     }
 }
 
