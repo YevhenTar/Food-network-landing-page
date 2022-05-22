@@ -103,6 +103,9 @@
         justify-content: center;
         align-items: center;
     }
+    .testimonials-swiper {
+        width: 85%;
+    }
 }
 
 
@@ -121,6 +124,12 @@
     }
     .features-block__image-wrap {
         margin-bottom: 20px;
+    }
+    .testimonials-swiper {
+        width: 100%;
+    }
+    .testimonials-section__text {
+        width: 85%;
     }
 }
 
@@ -149,5 +158,8 @@
     }
     .app-section__subheadline {
         margin-bottom: 20px;
+    }
+    .testimonials-section__text {
+        width: 100%;
     }
 }
