@@ -472,8 +472,11 @@ color: #DC780B;
 .app-section {
     padding: 135px 0 120px;
 }
-
-.app-section__section-container {
+.take-away-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .app-section__subheadline {
     margin-bottom: 5px;
@@ -490,33 +493,29 @@ color: #DC780B;
     flex-direction: row;
     align-items: center;
 }
+.app-section__button-block .project-button{
+    background-color: #150C01;
+    border: 1.5px solid #150C01;
+}
 .appstore-button {
     margin-right: 30px;
-    background-color: #150C01;
+    
+}
+.app-section__button-block .project-button:hover{
+    color: #150C01;
+    border: 1.5px solid rgba(21,12,1,0.35);
+    background-color: #ffffff;
 }
 .app-section__link-image {
     margin-right: 8px;
 }
-.google-play-button {
-    color: #150C01;
-    border: 1.5px solid rgba(21,12,1,0.1);
-    background-color: #ffffff;
-}
 .appstore-button p, .google-play-button p{
     line-height: 1.9;
-}
-.app-section__image-container {
 }
 .app-section__main-image {
 }
 .testimonials-section {
     padding: 135px 0 120px;
-}
-.container {
-}
-.row {
-}
-.col {
 }
 .headline-animate-wrap {
 }
