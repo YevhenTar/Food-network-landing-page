@@ -37,6 +37,12 @@
     .dish-block__text {
         font-size: 14px;
     }
+    .footer-block {
+        padding-left: 38px;
+    }
+    .footer-logo-block {
+        padding-left: 0;
+    }
 } 
 
 /* Medium devices (tablets, less than 992px) */
@@ -112,6 +118,14 @@
     .contacts-form__input {
         width: 100%;
     }
+    .footer-logo-block {
+        margin-bottom: 45px;
+    }
+    .footer-block {
+        margin-bottom: 45px;
+        padding-left: 0;
+    }
+
 }
 
 
