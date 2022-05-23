@@ -288,7 +288,7 @@ p{
     left: calc(50% + -336px);
 }
 .features-section {
-    padding: 120px 0 60px;
+    padding: 120px 0 20px;
 }
 .section-subheadline {
     font-family: "Roboto";
@@ -325,7 +325,7 @@ p{
     margin-bottom: 15px;
 }
 .about-section {
-    padding: 135px 0 120px;
+    padding: 135px 0 20px;
 }
 .background-block {
     position: absolute;
@@ -369,7 +369,7 @@ p{
     letter-spacing: 2px;
 }
 .menu-section {
-    padding: 135px 0 120px;
+    padding: 135px 0 20px;
 }
 .headline-animate-wrap {
     text-align: center;
@@ -460,17 +460,14 @@ p{
 }
 .learn-more-link {
     font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-
-
-color: #DC780B;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DC780B;
 }
 .app-section {
-    padding: 135px 0 120px;
+    padding: 135px 0 20px;
 }
 .take-away-row{
     display: flex;
@@ -515,7 +512,7 @@ color: #DC780B;
 .app-section__main-image {
 }
 .testimonials-section {
-    padding: 135px 0 120px;
+    padding: 135px 0 20px;
 }
 .headline-animate-wrap {
 }
@@ -643,7 +640,7 @@ color: #DC780B;
 .main-footer {
 }
 .main-footer__wrap {
-    padding: 85px;
+    padding: 85px 0;
     background-color: #252525;
 }
 

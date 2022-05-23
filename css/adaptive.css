@@ -194,4 +194,8 @@
         height: 55px;
         padding: 0 30px;
     }
+    .main-footer__wrap {
+        padding: 85px 40px;
+        background-color: #252525;
+    }
 }
