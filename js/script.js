@@ -10,6 +10,8 @@ $(document).ready(function () {
     });
 });
 
+
+
 $('.logo-block').on('click', function (e) {
     e.preventDefault();
     $('html, body').animate({ scrollTop: 0 }, 500, 'linear');
@@ -41,32 +43,31 @@ let hiddenMenu = document.querySelector('.hidden-nav-block');
 
 burgerMenu.addEventListener('click', () => {
     if (menuOpened == false) {
-        console.log('Opening...');
-        document.body.classList.add("body-blocked");
+        document.body.classList.add('body-blocked');
+        burgerMenu.classList.add('change');
+        burgerMenu.classList.remove('close');
         hiddenMenu.style.display = "block";
-        first.style.marginTop = '10px';
-        second.style.marginTop = '-2px';
-        second.style.transform = 'scale(0)';
-        third.style.marginTop = '-9px';
-        window.setTimeout(() => {
-            first.style.transform = 'rotate(-135deg)';
-            third.style.transform = 'rotate(-225deg)';
-        }, 1000);
         menuOpened = true;
     } else if (menuOpened == true) {
-        console.log('Closing...');
-        document.body.classList.remove("body-blocked");
+        document.body.classList.remove('body-blocked');
+        burgerMenu.classList.add('close');
+        burgerMenu.classList.remove('change');
         hiddenMenu.style.display = "none";
-        first.style.transform = 'rotate(0deg)';
-        third.style.transform = 'rotate(0deg)';
-        window.setTimeout(() => {
-            first.style.marginTop = '0px';
-            second.style.marginTop = '7px';
-            second.style.transform = 'scale(1)';
-            third.style.marginTop = '7px';
-        }, 1000);
         menuOpened = false;
     };
+});
+
+$(document).ready(function () {
+    $('.hidden-menu-list__link').on('click', function (e) {
+        e.preventDefault();
+        $('.burger-menu').addClass('close').removeClass('change');
+        $('body').removeClass('body-blocked');
+        $(".hidden-nav-block").fadeToggle(300);
+        $('html, body').animate({
+            scrollTop: $($(this).attr('href')).offset().top
+        }, 500, 'linear');
+        menuOpened = false;
+    });
 });
 
 const swiper = new Swiper('.testimonials-swiper', {

@@ -226,12 +226,51 @@ p{
     width: 100%;
     border-radius: 4px;
     background: black;
-    transition: 0.8s ease;
+    /* transition: 0.8s ease;  */
     margin-top: 7px;
 }
 .top-line{
     margin-top: 0;
+
 }
+.middle-line{
+    
+}
+.bottom-line{ 
+    
+}
+.change .top-line{
+    margin-top: 10px;
+    transform: rotate(-135deg);
+    transition: transform 0.8s ease 0.8s,  margin-top 0.8s ease;
+}
+.change .middle-line{
+    margin-top: -1px;
+    transform: scale(0); 
+    transition: margin-top 0.8s ease, transform 0.8s ease;
+}
+.change .bottom-line{
+    margin-top: -9px;
+    transform: rotate(-225deg);
+    transition: margin-top 0.8s ease, transform 0.8s ease 0.8s;
+}
+.close .top-line{
+    margin-top: 0;
+    transform: rotate(0);
+    transition: transform 0.8s ease,  margin-top 0.8s ease 0.8s;
+}
+.close .middle-line{
+    margin-top: 7px;
+    transform: scale(1); 
+    transition: margin-top 0.8s ease 0.8s, transform 0.8s ease 0.8s;
+}
+.close .bottom-line{
+    margin-top: 7px;
+    transform: rotate(0);
+    transition: margin-top 0.8s ease 0.8s, transform 0.8s ease;
+}
+
+
 
 
 
@@ -512,7 +551,7 @@ p{
 .app-section__main-image {
 }
 .testimonials-section {
-    padding: 135px 0 20px;
+    padding: 135px 0 90px;
 }
 .headline-animate-wrap {
 }
@@ -532,12 +571,6 @@ p{
     width: 70%;
     height: auto;
 }
-.swiper-wrapper {
-}
-.testimonials-swiper-wrapper {
-}
-.swiper-slide {
-}
 .testimonials-swiper-slide {
     text-align: center;
     padding-top: 60px;
@@ -553,30 +586,12 @@ p{
 .stars-block {
     margin-bottom: 35px;
 }
-.star {
-}
 .slide-person-name {
     margin-bottom: 5px;
 }
-.slide-person-position {
-}
-.swiper-pagination {
-}
-.testimonials-swiper-pagination {
-}
-.swiper-button-prev {
-}
-.testimonials-siper-button-prev {
-}
-.swiper-button-next {
-}
-.testimonials-siper-button-next {
-}
-
-
 .contacts-section {
     background: rgba(220,120,11,0.25);
-    padding: 135px 0 120px;
+    padding: 115px 0 120px;
 }
 .contacts-section__subheadline {
     margin-bottom: 15px;
@@ -592,9 +607,6 @@ p{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-.contacts-form {
-
 }
 .contacts-form__input-wrap {
     display: flex;
